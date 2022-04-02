@@ -1,0 +1,48 @@
+image{
+    image-resolution: center;
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+    background-color: darkslategrey;
+}
+table{
+    width: 900px;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+    }
+    
+   
+    
+    table, td, th{
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+    background-color: purple;
+    }
+    td{
+    font-size: 18px;
+    }
+    th{
+    background-color: palevioletred;
+    color: white;
+    }
+    
+video{
+    width: 600px;
+    height: 400px;
+    -o-border-image: repeat;
+    display: block;
+        margin: auto;       
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+    color: rgb(7, 2, 2);
+    font-style: italic;
+    font-size: 35px;
+}
