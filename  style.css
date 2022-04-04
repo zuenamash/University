@@ -2,49 +2,49 @@
      margin: 0;
      padding: 0;
  }
- .header{
-     min-height: 100vh;
-     width: 100%;
-     background-position: center;
-     position: relative;
-     background-size: cover
-     ;
- }
+ 
+ 
  body{
     
      background-color: grey;
      box-sizing: border-box;
-     background-position: position;
+     background-position: fixed;
      
 }
  nav{
      display: flex;
-     padding: 2% 6%;
+     padding: 2% 50% 2% 50%;
      justify-content: space-between;
      box-align: center;
  }
  
- .nav link{
+ .nav-links{
      flex: 1;
      text-align: right;
+     list-style: none;
  }
  .nav-links ul li{
      list-style: none;
      display: inline-block;
-     padding: 8px 12px;
-     position:relative ;
+     padding: 60px;
+     position: relative;
+     text-align: center;
+    
  }
  .nav-links ul li a{
+      list-style-position: outside;
+    display: inline-block;
+    padding: 0px 80px 0px opx;
+    position:relative ;
+    text-align: justify; 
     text-decoration: none;
-    font-size: 14px;
-    display: block;
-   color: black;
-   padding: 20px;
-   font-size: 18px;
-   text-transform: uppercase;
    text-align: center;
-   border-top: 30px;
- }
+   border-top: 10px;
+    
+
+
+}
+ 
  footer{
     position: absolute;
     bottom: 0;

@@ -1,20 +1,22 @@
 image{
     image-resolution: center;
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     object-fit: contain;
     background-color: darkslategrey;
+    position: absolute;
+}
+body{
+    position: relative;
+    background-image: -moz-repeating-radial-gradient(100px);
+    background-position: fixed;
 }
 table{
     width: 900px;
-    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20%;
-    }
-    
-   
-    
+    box-shadow: -1px 12px 12px -6px;
+    margin-left: 200px; 
+    padding-bottom: 20%;
+    } 
     table, td, th{
     padding: 20px;
     border: 1px solid lightgray;
@@ -32,17 +34,10 @@ table{
     }
     
 video{
-    width: 600px;
+    width: 900px;
     height: 400px;
-    -o-border-image: repeat;
+    -o-border-image: auto;
     display: block;
-        margin: auto;       
-}
-footer{
-    position: absolute;
-    bottom: 0;
-    border-radius: 20px;
-    color: rgb(7, 2, 2);
-    font-style: italic;
-    font-size: 35px;
+        margin:left ;
+        padding: 0px 0px 0px 200px;       
 }
